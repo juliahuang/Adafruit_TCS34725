@@ -42,7 +42,7 @@
  #include <WProgram.h>
 #endif
 
-#include <Wire.h>
+#include <i2c_t3.h>
 
 #define TCS34725_ADDRESS          (0x29)
 
