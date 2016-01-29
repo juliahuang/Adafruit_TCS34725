@@ -117,7 +117,7 @@ tcs34725Gain_t;
 
 class Adafruit_TCS34725 {
  public:
-  Adafruit_TCS34725(tcs34725IntegrationTime_t = TCS34725_INTEGRATIONTIME_2_4MS, tcs34725Gain_t = TCS34725_GAIN_1X, _juliaspinSet = 0);
+  Adafruit_TCS34725(tcs34725IntegrationTime_t = TCS34725_INTEGRATIONTIME_2_4MS, tcs34725Gain_t = TCS34725_GAIN_1X, uint8_t = 0);
   
   boolean  begin(void);
   void     setIntegrationTime(tcs34725IntegrationTime_t it);
