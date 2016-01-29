@@ -194,7 +194,7 @@ void Adafruit_TCS34725::disable(void)
     Constructor
 */
 /**************************************************************************/
-Adafruit_TCS34725::Adafruit_TCS34725(tcs34725IntegrationTime_t it, tcs34725Gain_t gain, int8_t pinSet) 
+Adafruit_TCS34725::Adafruit_TCS34725(tcs34725IntegrationTime_t it, tcs34725Gain_t gain, uint8_t pinSet) 
 {
   _tcs34725Initialised = false;
   _tcs34725IntegrationTime = it;
